@@ -1,7 +1,3 @@
-# Data files
-data/*
-!data/.gitkeep
-
 # Python
 __pycache__/
 *.py[cod]
@@ -13,28 +9,23 @@ env/
 ENV/
 
 # Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# Windows
+# Data files (too large for git)
+*.csv
+*.pkl
+*.keras
+*.json
+data/
+
+# OS
+.DS_Store
 Thumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+desktop.ini
 
 # IDE
 .vscode/
 .idea/
 *.swp
-
-# Results
-results/figures/*.png
-results/metrics/*.csv
-
-# Model files
-*.h5
-*.pkl
-*.joblib
-
-# OneDrive
-~$*
-*.tmp
+*.swo

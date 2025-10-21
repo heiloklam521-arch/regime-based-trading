@@ -25,12 +25,4 @@ While the adaptive strategy achieved slightly lower absolute returns (20.4% vs 2
 - statsmodels
 - matplotlib, seaborn
 
-## 📂 Project Structure
-├── 03_adaptive_allocation.ipynb # Main analysis notebook
-├── data/ # Market data
-└── README.md # This file
 
-## 🚀 How to Run
-```bash
-pip install -r requirements.txt
-jupyter notebook 03_adaptive_allocation.ipynb
